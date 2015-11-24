@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git initialize a empty repository in the directory, and create a new file named .git.
+I want to make some files in my working directory tracked by Git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+the files in the staging area is ready to be commited but not now, and until commit the files can't be tracked by Git. whereas the files in repository can be tracked by Git. And the files in working directory are just nothing with Git but they can be moved to repository for tracked by some command.a
