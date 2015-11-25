@@ -3,4 +3,17 @@ Git initialize a empty repository in the directory, and create a new file named 
 I want to make some files in my working directory tracked by Git.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-the files in the staging area is ready to be commited but not now, and until commit the files can't be tracked by Git. whereas the files in repository can be tracked by Git. And the files in working directory are just nothing with Git but they can be moved to repository for tracked by some command.a
+the files in the staging area is ready to be commited but not now, and until commit the files can't be tracked by Git. whereas the files in repository can be tracked by Git. And the files in working directory are just nothing with Git but they can be moved to repository for tracked by some command.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add to staging area by a logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In these situations:create a new version of the project, or make some changes in the project that would be untable, or create new features, or fix bugs.
+Branches can help us try what we want to try without the fear of breaking the project.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams let me know about the commit history of each branch and branch structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+I think automatic merging has the benefit of saving time but sometimes Git could not judge whether there is a conflict or not. Always doing merge manually will take a lot of time and be unnecessary in some cases, but can handle all of the merge conficts.
